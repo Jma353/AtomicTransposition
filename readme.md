@@ -28,6 +28,7 @@ The following two pictures are examples of transposition results, with the corre
 ![OH_3_Th](OH_3_Th.png)
 ![OH_15_Th](OH_15_Th.png)
 
+# How to Run the Script 
 Script run with on the command line in the following way:
 
 ```python 
