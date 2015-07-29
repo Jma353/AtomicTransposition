@@ -201,7 +201,7 @@ def printVector(element):
 
 
   # Used for the purposes of displaying the elements' coordinates
-  def dispFinalAtoms(vectorArray, coordSys, offsetMatrix, a, b, origin):
+def dispFinalAtoms(vectorArray, coordSys, offsetMatrix, a, b, origin):
   assert a == 1 or a == -1
   assert b == 1 or b == -1
   for x in vectorArray:
@@ -209,11 +209,11 @@ def printVector(element):
     finalVector = (x[2][0]*coordSys[0] + x[2][1]*a*coordSys[1] +
     + x[2][2]*b*coordSys[2])
     finalVector += (origin - 
-                    offsetMatrix[0]*coordSys[0] -
-                    offsetMatrix[1]*a*coordSys[1] - 
-                    offsetMatrix[2]*b*coordSys[2])
+                  offsetMatrix[0]*coordSys[0] -
+                  offsetMatrix[1]*a*coordSys[1] - 
+                  offsetMatrix[2]*b*coordSys[2])
     print (x[0] + "   " + str(finalVector[0]) + "   " + 
-      str(finalVector[1]) + "   " + str(finalVector[2]))
+    str(finalVector[1]) + "   " + str(finalVector[2]))
 
 
 ### PART ONE: FIND TWO PLANES PER STRUCTURE ###
