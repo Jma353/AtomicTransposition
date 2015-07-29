@@ -6,7 +6,7 @@ The algorithm uses Sympy and Math libraries.
 
 #Data File Setup 
 
-This script requires a data file set up in the following way 
+This script requires a data file set up in the following way, without spaces in between data.  File reading is performed by the script until a space is found, so any data that is relevant but not to be read can be stored after spaces, below the relevant data.  
 
 - Surface 1, 3D Coordinate 1
 - Surface 1, 3D Coordinate 2
@@ -28,4 +28,9 @@ The following two pictures are examples of transposition results, with the corre
 ![OH_3_Th](OH_3_Th.png)
 ![OH_15_Th](OH_15_Th.png)
 
+Script run with on the command line in the following way:
+
+```python 
+python transpose.py sampleData.txt 
+```
 
