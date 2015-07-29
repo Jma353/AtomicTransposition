@@ -23,7 +23,7 @@ This script requires a data file set up in the following way, without spaces in 
 
 ** The first two coordinates from each surface must be RELATIVE TO EACH OTHER in order for transposition to be performed properly **
 
-The following two pictures are examples of transposition results, with the corresponding atomic coordinates labeled as 1, 2, 3, 4, 5.  1 and 2 are marked in redbecause they MUST be relative to one another. 
+The following two pictures are examples of transposition results, with the corresponding atomic coordinates labeled as 1, 2, 3, 4, 5.  1 and 2 are marked in RED because they MUST be relative to one another. 
 
 ![OH_3_Th](OH_3_Th.png)
 ![OH_15_Th](OH_15_Th.png)
