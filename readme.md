@@ -23,10 +23,14 @@ This script requires a data file set up in the following way, without spaces in 
 
 ** The first two coordinates from each surface must be RELATIVE TO EACH OTHER in order for transposition to be performed properly **
 
+The script outputs 4 results, each corresponding to a different coordinate system relative to the original vector 
+
 # How to Run the Script 
 Script run with on the command line in the following way:
 
 ```python 
 python transpose.py sampleData.txt 
 ```
+
+
 
